@@ -2091,6 +2091,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="phone"],
+	input[type="time"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2111,6 +2113,8 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="phone"]:invalid,
+		input[type="time"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -2136,6 +2140,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="phone"],
+	input[type="time"],
 	select {
 		height: 3em;
 	}
@@ -2245,6 +2251,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="phone"],
+	input[type="time"],
 	select,
 	textarea {
 		background-color: #ffffff;
@@ -2254,6 +2262,8 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="phone"]:focus,
+		input[type="time"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #565656;
@@ -2980,10 +2990,10 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: #565656;
 			color: #ffffff;
-			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
+			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic8.jpg");
+			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic8.jpg");
+			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic8.jpg");
+			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic8.jpg");
 			background-size: cover, cover;
 			background-position: center, center;
 			background-repeat: repeat, no-repeat;
@@ -3048,6 +3058,8 @@ input, select, textarea {
 			.wrapper.style3 input[type="text"],
 			.wrapper.style3 input[type="password"],
 			.wrapper.style3 input[type="email"],
+			.wrapper.style3 input[type="phone"],
+			.wrapper.style3 input[type="time"],
 			.wrapper.style3 select,
 			.wrapper.style3 textarea {
 				background-color: rgba(255, 255, 255, 0.075);
@@ -3057,6 +3069,8 @@ input, select, textarea {
 				.wrapper.style3 input[type="text"]:focus,
 				.wrapper.style3 input[type="password"]:focus,
 				.wrapper.style3 input[type="email"]:focus,
+				.wrapper.style3 input[type="phone"],
+				.wrapper.style3 input[type="time"],
 				.wrapper.style3 select:focus,
 				.wrapper.style3 textarea:focus {
 					background: rgba(255, 255, 255, 0.25);
@@ -3562,6 +3576,8 @@ input, select, textarea {
 		#menu input[type="text"],
 		#menu input[type="password"],
 		#menu input[type="email"],
+		#menu input[type="phone"],
+		#menu input[type="time"],
 		#menu select,
 		#menu textarea {
 			background-color: rgba(255, 255, 255, 0.075);
@@ -3571,6 +3587,8 @@ input, select, textarea {
 			#menu input[type="text"]:focus,
 			#menu input[type="password"]:focus,
 			#menu input[type="email"]:focus,
+			#menu input[type="phone"],
+			#menu input[type="time"],
 			#menu select:focus,
 			#menu textarea:focus {
 				background: rgba(255, 255, 255, 0.25);
